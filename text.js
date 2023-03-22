@@ -20,7 +20,7 @@ const title_CaseBtn = document.querySelector(`.title_Case`);
 console.log(_.camelCase(``));
 
 camelCaseBtn.onclick = () => {
-  output.value = _.camelCase(noCase(input.value));
+  output.value = _.camelCase(noCase(input.value)) ;
 };
 pascalCaseBtn.onclick = () => {
   output.value = _.camelCase(noCase(input.value))
